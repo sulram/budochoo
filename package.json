@@ -1,0 +1,17 @@
+{
+  "name": "budochoo",
+  "version": "1.0.0",
+  "description": "choo starter with budo",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js --port ${PORT:-8080}"
+  },
+  "author": "Marlus Araujo",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^11.6.3"
+  },
+  "dependencies": {
+    "choo": "^7.1.0"
+  }
+}
